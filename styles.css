@@ -1,0 +1,149 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+ }
+ header {
+  background-image: url(fondo.jpeg);
+  color: #fff;
+  padding: 20px;
+ }
+ header h1 {
+  margin: 0;
+ }
+ nav ul {
+  list-style-type: none;
+  padding: 0;
+ }
+ nav ul li {
+  display: inline;
+  margin-right: 10px;
+ }
+ nav ul li a {
+  color: #fff;
+  text-decoration: none;
+ }
+ main {
+  padding: 20px;
+ }
+ section {
+  margin-bottom: 20px;
+ }
+
+ .circle {
+  width: 200px;
+  height: 200px;
+  background-image: url(img.png);
+  border-radius: 50%;
+  background-size: cover;
+  float: left; /* Para que el círculo esté al lado del contenido */
+}
+.dentro {
+padding: 20px;
+background-color: rgba(92, 23, 86, 0.685);
+border: 1px solid #ccc;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(252, 235, 235, 0.938);
+}
+
+.informacion {
+  text-align: left;
+  color: white;
+}
+
+.informacion p {
+  margin: 20px 0;
+}
+
+.informacion p:first-child {
+  font-size: 40px; /* Tamaño de fuente más grande para el primer párrafo (nombre) */
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para el primer párrafo */
+}
+
+.informacion p:last-child {
+  font-size: 26px; /* Tamaño de fuente más pequeño para el último párrafo (edad) */
+  color: #fff7f7; /* Color gris para la edad */
+}
+
+ .container {
+  width: 50%;
+  max-width: 150rem;
+  margin: 0 auto;
+  text-align: left; /* Alinea el texto a la izquierda */
+  }
+  .section{
+  text-align: left;
+  }
+   .section-title {
+     text-decoration: underline;
+
+     text-align: left;
+   }
+   
+   .entry {
+    flex: 1;
+     margin-bottom: 2rem;
+     text-align: left;
+   }
+   
+   .subtitulo {
+     font-weight: bold;
+   }
+   
+   .dato {
+     color: #666; 
+   }
+   .new-paragraph {
+    flex: 1;
+    margin-right: 20px; /* Espacio entre los párrafos */
+}
+ 
+   footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+   }
+
+   .contenedor-imagen {
+    width: 300px; /* ajusta el ancho del contenedor de la imagen según tus necesidades */
+    height: 300px; /* ajusta la altura del contenedor de la imagen según tus necesidades */
+    margin-bottom: 0px; /* Espacio entre la imagen y el cuadrado */
+  }
+  
+  .contenedor-imagen img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .contenedor-imagenes {
+    display: flex; /* Utiliza un contenedor flexible para las imágenes */
+    justify-content: space-between; /* Distribuye las imágenes de manera uniforme con espacio entre ellas */
+  }
+  
+  .cuadro {
+    width: calc(33.33% - 20px); /* Ajusta el ancho de cada cuadro según el espacio disponible y el margen entre ellos */
+    height: 550px; /* ajusta la altura de cada cuadro según tus necesidades */
+    background-color: rgb(116, 116, 184); /* Cambia el color de fondo del cuadro a azul */
+    border-radius: 20px; /* Redondea las esquinas del cuadro */
+  }
+  
+  .cuadro img {
+    width: 100%;
+    height: 80%;
+  }
+  
+  .contenido {
+    color: white; /* color del texto */
+    padding: 20px;
+  }
+  
+  .contenido p {
+    margin: 0;
+    padding: 5px 0;
+  }
+  
